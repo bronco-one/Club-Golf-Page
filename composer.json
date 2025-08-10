@@ -1,0 +1,17 @@
+{
+    "name": "bronco/my-framework",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bronco",
+            "email": "myitlab@protonmail.com"
+        }
+    ],
+    "require": {
+        "phroute/phroute": "^2.2"
+    }
+}
