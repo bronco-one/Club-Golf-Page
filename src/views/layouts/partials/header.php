@@ -1,6 +1,6 @@
 
 <div class="col-sm-2">
-<img class="img-fluid float-left rounded" src="img/clubGolf.png" alt="Logo">
+<img class="img-fluid float-left rounded" src="assets/img/clubGolf.png" alt="Logo">
 </div>
 <div class="col-sm-8">
 <h1 class="font-bold">Header Goes Here</h1>

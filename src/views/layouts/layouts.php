@@ -4,9 +4,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Club Golf Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-  </head>
-   <body>
+  <!--     Fonts and icons     -->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,900" />
+
+<!-- Nucleo Icons -->
+<link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+<link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+
+<!-- Font Awesome Icons -->
+<script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+
+<!-- Material Icons -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+<!-- CSS Files -->
+
+
+
+<link id="pagestyle" href="./assets/css/material-kit.css?v=3.1.0" rel="stylesheet" /></head>
+   <body class="index-page bg-gray-200">
+    
     <div class="container" style="margin-top:10px">
       <!-- header -->
       <header class="jumbotron text-center row rounded"
@@ -16,7 +33,7 @@
       <div class="row" style="padding-left: 0px;">
       <!-- Left-side Column Menu Section -->   
       <nav class="col-sm-2">
-        <ul class="nav nav-pills flex-column">
+        <ul class="nav flex-column">
       <?php include('partials/nav.php'); ?>
         </ul>
       </nav>
