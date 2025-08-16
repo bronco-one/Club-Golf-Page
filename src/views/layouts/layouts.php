@@ -3,55 +3,75 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Club Golf Page</title>
-  <!--     Fonts and icons     -->
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,900" />
+    <title> Golf Club Page</title>
+ <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-<!-- Nucleo Icons -->
-<link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
-<link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-<!-- Font Awesome Icons -->
-<script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-<!-- Material Icons -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-<!-- CSS Files -->
+</head>
+   <body class="index-page">
 
-
-
-<link id="pagestyle" href="./assets/css/material-kit.css?v=3.1.0" rel="stylesheet" /></head>
-   <body class="index-page bg-gray-200">
     
-    <div class="container" style="margin-top:10px">
       <!-- header -->
-      <header class="jumbotron text-center row rounded"
-       style="margin-bottom:2px; background:linear-gradient( #78b5f2 , #0073e6);padding:20px;">          <?php include 'partials/header.php' ?>
+      <header id="header" class="header sticky-top">
+                 <?php include 'partials/header.php' ?>
       </header>
-      <!-- Body Section -->  
-      <div class="row" style="padding-left: 0px;">
-      <!-- Left-side Column Menu Section -->   
-      <nav class="col-sm-2">
-        <ul class="nav flex-column">
-      <?php include('partials/nav.php'); ?>
-        </ul>
-      </nav>
+      
+      
+      
       <!-- Center Column Content Section -->
-       <div class="col-sm-8">
-      <?php include dirname(__DIR__).'/'.$content.'.php'; ?>
-      </div>
-      <!-- Right-side Column Content Section -->
-      <aside class="col-sm-2">
-      <?php include 'partials/info.php'; ?>
-      </aside>
-    </div>
+       <main class="main">
+        <section id="hero" class="hero section light-background">
+          <?php include dirname(__DIR__).'/'.$content.'.php'; ?>
+        </section>
+         <section id="featured-services" class="featured-services section">
+          <?php include 'partials/info.php'; ?>
+         </section>
+       </main>
+       
     <!-- Footer Content Section -->
-    <footer class="jumbotron text-center row"
-    style="padding-bottom:1px; padding-top:8px;">
+    <footer id="footer" class="footer">
+    
     <?php include 'partials/footer.php'; ?>
     </footer>
-    </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-  </body>
+     <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+ </body>
 </html>
