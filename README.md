@@ -1,5 +1,6 @@
 # Club-Golf-Page
 A simple PHP framework.
+<<<<<<< HEAD
 Current status.
 
 ## File Structure
@@ -29,3 +30,6 @@ club-golf-page
 
 
 ```
+=======
+Current status look on screanshot.
+>>>>>>> b2e4a3b31e6f74c481bd4b6a98be81a66e26b8ed
