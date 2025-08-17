@@ -1,5 +1,5 @@
 # Club-Golf-Page
-A simple PHP framework.
+ Test web page for Golf Club (Simple php framework).
 <<<<<<< HEAD
 Current status.
 
@@ -31,13 +31,15 @@ club-golf-page
 
 ```
 =======
-Current status look on screanshot.
+
 >>>>>>> b2e4a3b31e6f74c481bd4b6a98be81a66e26b8ed
 
 # packages used:
 
 phrout
 
-# template
+# template:
 Bootstrap v 5.3
-Template Name: BizLand Author: BootstrapMade.com
+# Template Name:
+ BizLand Author: BootstrapMade.com
+ ![alt text](screanshot1.png)
