@@ -33,3 +33,11 @@ club-golf-page
 =======
 Current status look on screanshot.
 >>>>>>> b2e4a3b31e6f74c481bd4b6a98be81a66e26b8ed
+
+# packages used:
+
+phrout
+
+# template
+Bootstrap v 5.3
+Template Name: BizLand Author: BootstrapMade.com
