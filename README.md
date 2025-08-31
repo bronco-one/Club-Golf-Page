@@ -1,7 +1,7 @@
 # Club-Golf-Page
  Test web page for Golf Club (Simple php framework).
 <<<<<<< HEAD
-Current status.
+Current status: dev
 
 ## File Structure
 
@@ -36,7 +36,8 @@ club-golf-page
 
 # packages used:
 
-phrout
+- phrout
+- phpdotenv
 
 # template:
 Bootstrap v 5.3
