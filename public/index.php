@@ -9,7 +9,7 @@ use Phroute\Phroute\Dispatcher;
 
 use App\controllers\Home;
 use App\controllers\Contact;
-
+use Dotenv\Dotenv;
 
 
 $path = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
@@ -20,4 +20,6 @@ $path = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
  $dispatcher =  new Dispatcher($router->getData());
 
  echo $dispatcher->dispatch('GET',$path);
+ 
+
 
