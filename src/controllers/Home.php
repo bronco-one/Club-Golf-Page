@@ -16,15 +16,9 @@ class Home extends Controller{
        
     }
     public function index(){
-        //$nav = $this->nav();
+        
        
       
         $this->view->render('home/index');
-    }
-    public  function nav(){
-        $db = new Model();
-       return $db->query("SELECT * FROM menu");
-     
-     
     }
 }
