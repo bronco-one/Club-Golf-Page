@@ -16,10 +16,10 @@ class Home extends Controller{
        
     }
     public function index(){
-        $nav = $this->nav();
+        //$nav = $this->nav();
        
       
-        $this->view->render('home/index',['nav'=>$nav]);
+        $this->view->render('home/index');
     }
     public  function nav(){
         $db = new Model();
