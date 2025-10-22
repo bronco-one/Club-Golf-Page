@@ -2,6 +2,7 @@
 namespace app\core;
 
 use App\core\DbConnect;
+
 class Model {
 
      protected $db;
